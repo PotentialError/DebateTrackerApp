@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B3E5FC"
+    tools:context=".DebateTimerFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/myPrepTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/ostrich"
+                    android:text="@string/your_prep_time"
+                    android:textColor="#212121"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:padding = "1dp"/>
+
+                <TextView
+                    android:id="@+id/myTimerText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/ostrich"
+                    android:text="@string/_3_00"
+                    android:textColor="#212121"
+                    android:textSize="50sp"
+                    android:textStyle="bold"
+                    android:padding = "1dp"/>
+
+                <Button
+                    android:id="@+id/myStopTimer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:background="#0288D1"
+                    android:text="@string/start"
+                    android:textColor="#ffffff" />
+
+                <Button
+                    android:id="@+id/myResetTimer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:background="#0288D1"
+                    android:text="@string/reset"
+                    android:textColor="#ffffff" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/opponentPrepTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_margin="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/ostrich"
+                    android:text="@string/enemy_prep_time"
+                    android:textColor="#212121"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:padding = "1dp"/>
+
+                <TextView
+                    android:id="@+id/opponentTimerText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/ostrich"
+                    android:text="@string/_3_00"
+                    android:textColor="#212121"
+                    android:textSize="50sp"
+                    android:textStyle="bold"
+                    android:padding = "1dp"/>
+
+                <Button
+                    android:id="@+id/opponentStopTimer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:background="#0288D1"
+                    android:text="@string/start"
+                    android:textColor="#ffffff" />
+
+                <Button
+                    android:id="@+id/opponentResetTimer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:background="#0288D1"
+                    android:text="@string/reset"
+                    android:textColor="#ffffff" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="11dp"
+            android:fontFamily="@font/ostrich"
+            android:text="@string/current_speech"
+            android:textColor="#212121"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:padding = "1dp"/>
+
+        <TextView
+            android:id="@+id/currentSpeaker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/ostrich"
+            android:text="@string/pro_side_speaker_1"
+            android:textColor="#212121"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:padding = "1dp"/>
+
+        <TextView
+            android:id="@+id/currentSpeech"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/ostrich"
+            android:text="@string/grand_crossfire"
+            android:textColor="#212121"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:padding = "1dp"/>
+
+        <TextView
+            android:id="@+id/currentTimer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/ostrich"
+            android:text="@string/_4_00"
+            android:textColor="#212121"
+            android:textSize="80sp"
+            android:textStyle="bold"
+            android:padding = "3dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:id="@+id/currentPreviousTimer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="15dp"
+                android:background="#0288D1"
+                android:padding="10dp"
+                android:text="@string/last_speech"
+                android:textColor="#ffffff"
+                android:textSize="15sp" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation = "vertical"
+                android:layout_marginRight="15dp">
+                <Button
+                    android:id="@+id/currentStopTimer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="#0288D1"
+                    android:paddingTop = "10dp"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight ="20dp"
+                    android:text="@string/start"
+                    android:textColor="#ffffff"
+                    android:textSize="30sp" />
+                <Button
+                    android:id="@+id/currentResetTimer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="#0288D1"
+                    android:paddingTop = "10dp"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight ="20dp"
+                    android:layout_marginTop = "20dp"
+                    android:text="@string/reset"
+                    android:textColor="#ffffff"
+                    android:textSize="30sp" />
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/currentNextTimer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#0288D1"
+                android:padding="10dp"
+                android:text="@string/next_speech"
+                android:textColor="#ffffff"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/youAreCurrent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/ostrich"
+            android:text="@string/you_are_currently_speaking"
+            android:textColor="#FF2400"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:padding = "1dp"/>
+    </LinearLayout>
+
+    </ScrollView>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChooseDebateActivity"
+    android:orientation="vertical">
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text = "@string/choose_your_usual_debate_style"
+        android:gravity = "center"
+        android:textSize = "40sp"
+        android:padding = "20dp"
+        android:fontFamily="@font/ostrich"
+        android:textStyle = "bold"
+        android:textColor = "#212121"
+        android:background="#03A9F4"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id = "@+id/debateStyleRecycler"
+        />
+
+</LinearLayout>

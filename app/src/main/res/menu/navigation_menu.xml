@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item android:id = "@+id/profileNav"
+        android:title="@string/profile"
+        android:icon="@drawable/ic_profile"/>
+    <item android:id = "@+id/aAndQNav"
+        android:title = "@string/help"
+        android:icon="@drawable/ic_q_and_a"/>
+    <item android:title = "@string/debates">
+        <menu>
+            <item android:id = "@+id/lookDebateNav"
+                android:title = "@string/view_history"
+                android:icon = "@drawable/ic_look_debate"/>
+            <item android:id = "@+id/editDebateNav"
+                android:title = "@string/edit"
+                android:icon = "@drawable/ic_edit_debate"/>
+            <item android:id = "@+id/addDebateNav"
+                android:title = "@string/newDebate"
+                android:icon = "@drawable/ic_add_debate"/>
+            <item android:id = "@+id/removeDebateNav"
+                android:title = "@string/remove"
+                android:icon = "@drawable/ic_remove_debate"/>
+        </menu>
+    </item>
+
+</menu>

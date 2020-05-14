@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    app:cardCornerRadius="4dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:id="@+id/winLossProCon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/dateDisplay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="5/7/2020"
+                android:textColor="#757575"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/proCon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/pro"
+                android:textColor="#757575"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/winLoss"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/n_a"
+                android:textColor="#757575"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@id/winLossProCon"
+            android:layout_gravity = "center">
+            <TextView
+                android:id="@+id/debateStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/public_forum"
+                android:textColor="#757575"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/opponentTitleNames"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/debateStyle"
+
+                android:orientation="vertical"
+
+                android:layout_marginTop="3dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/opponent_s"
+                    android:textColor="#757575"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/opponentNames"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="@string/michael_man_sarah_sally_justin_jack"
+                    android:textColor="#757575" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/debateStyle"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/opponentTitleNames"
+                android:orientation="vertical"
+                android:layout_marginTop="3dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/opponent_s_school"
+                    android:textColor="#757575"
+                    android:textStyle="bold"
+                    android:gravity = "center"/>
+
+                <TextView
+                    android:id="@+id/opponentSchool"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="@string/abington_heights_high_school"
+                    android:textColor="#757575" />
+
+                <TextView
+                    android:id="@+id/tournamentNameTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/tournament_name"
+                    android:textColor="#757575"
+                    android:textStyle="bold"
+                    android:gravity = "center"
+                    />
+
+                <TextView
+                    android:id="@+id/tournamentName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:text="@string/ncfl_nationals_qualifier"
+                    android:textColor="#757575"
+                    android:gravity = "center"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

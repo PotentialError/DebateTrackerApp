@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".SettingUpDebateFragment">
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/debate_setup"
+            android:layout_gravity="center"
+            android:fontFamily="@font/ostrich"
+            android:textStyle = "bold"
+            android:textColor = "#212121"
+            android:textSize = "40sp"
+            android:gravity = "center"
+            android:background="#03A9F4"
+            android:padding = "15dp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginTop = "7dp">
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text = "@string/_5_7_2020"
+                android:layout_marginRight = "20dp"
+                android:layout_marginTop = "3dp"
+                android:textColor = "#757575"
+                android:id = "@+id/dateTextPreview"
+                android:textSize = "25sp"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id = "@+id/changeDateButton"
+                android:text = "@string/set_date"
+                android:textSize = "20sp"
+                android:padding="10dp"
+                android:background="#0288D1"
+                android:textColor = "#ffffff"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginTop = "7dp">
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text = "@string/debate_style"
+                android:layout_marginRight = "20dp"
+                android:layout_marginTop = "3dp"
+                android:textColor = "#757575"
+                android:textSize = "25sp"/>
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id = "@+id/debateStyleSpinner"
+                android:textSize = "25sp"
+                android:textColor = "#757575"/>
+        </LinearLayout>
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight = "30dp"
+            android:layout_marginLeft = "30dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginTop = "5dp"
+            >
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text = "@string/win"
+                android:textSize = "25sp"
+                android:id = "@+id/winSetup"
+                android:layout_marginRight="40dp"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text = "@string/n_a"
+                android:textSize = "25sp"
+                android:id = "@+id/NASetup"
+                android:layout_marginRight="40dp"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text = "@string/loss"
+                android:textSize = "25sp"
+                android:id = "@+id/lossSetup"/>
+        </RadioGroup>
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight = "30dp"
+            android:layout_marginLeft = "30dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginTop = "5dp"
+            >
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text = "@string/pro"
+                android:textSize = "25sp"
+                android:id = "@+id/sidePROSetup"
+                android:layout_marginRight="40dp"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text = "@string/con"
+                android:textSize = "25sp"
+                android:id = "@+id/sideCONSetup"/>
+        </RadioGroup>
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width = "match_parent"
+            android:hint = "@string/opponent_s_school_name"
+            android:id = "@+id/inputOpponentSchool"
+            android:inputType="textPersonName"
+            android:maxLength="25"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop = "3dp"
+            android:gravity = "center"
+            android:textColor = "#757575" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id = "@+id/inputOpponentOne"
+            android:hint = "@string/opponent_1_name"
+            android:inputType="textPersonName"
+            android:maxLength="25"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop = "3dp"
+            android:gravity = "center"
+            android:textColor = "#757575"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id = "@+id/inputOpponentTwo"
+            android:hint = "@string/opponent_2_name"
+            android:inputType="textPersonName"
+            android:maxLength="25"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop = "3dp"
+            android:gravity = "center"
+            android:textColor = "#757575"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id = "@+id/inputOpponentThree"
+            android:hint = "@string/opponent_3_name"
+            android:inputType="textPersonName"
+            android:maxLength="25"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop = "3dp"
+            android:gravity = "center"
+            android:textColor = "#757575"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop = "7dp">
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft = "30dp"
+                android:layout_marginRight = "30dp"
+                >
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text = "@string/tournament_round"
+                    android:id = "@+id/tournamentOptionSetup" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text = "@string/practice_round"
+                    android:id = "@+id/practiceOptionSetup" />
+            </RadioGroup>
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight = "30dp">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text = "@string/nsda_rules"
+                    android:id = "@+id/NSDAOptionSetup" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text = "@string/ncfl_rules"
+                    android:id = "@+id/NCFLOptionSetup" />
+            </RadioGroup>
+        </LinearLayout>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint = "@string/tournament_name_setup"
+            android:id = "@+id/inputTournamentName"
+            android:inputType="textPersonName"
+            android:maxLength="30"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop = "3dp"
+            android:gravity = "center"
+            android:textColor = "#757575"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/speakingOrderText"
+            android:text = "@string/who_speaks_first"
+            android:layout_gravity="center"
+            android:textSize = "17sp"
+            android:textColor = "#757575"
+            android:layout_marginTop = "7dp"/>
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation = "horizontal">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text = "@string/my_side"
+                android:id = "@+id/firstSideSpeakOption"
+                android:layout_marginRight="40dp"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text = "Opponent Side"
+                android:id = "@+id/secondSideSpeakOption"/>
+        </RadioGroup>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/speakingAloneText"
+            android:text = "@string/are_you_debating_alone"
+            android:layout_gravity="center"
+            android:textSize = "17sp"
+            android:textColor = "#757575"
+            android:layout_marginTop = "7dp"/>
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation = "horizontal">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text = "@string/yes"
+                android:id = "@+id/yesAloneOption"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text = "@string/no"
+                android:id = "@+id/noAloneOption"
+                android:layout_marginLeft="15dp"
+                />
+        </RadioGroup>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/speakingRoleText"
+            android:text = "@string/what_is_your_speaking_role"
+            android:layout_gravity="center"
+            android:textSize = "17sp"
+            android:textColor = "#757575"
+            android:layout_marginTop = "7dp"/>
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation = "horizontal">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text = "@string/first_speaker"
+                android:id = "@+id/firstSpeakerOption"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text = "@string/second_speaker"
+                android:id = "@+id/secondSpeakerOption"
+                android:layout_marginLeft="15dp"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text = "@string/third_speaker"
+                android:id = "@+id/thirdSpeakerOption"
+                android:layout_marginLeft="15dp"/>
+        </RadioGroup>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/rebutRoleText"
+            android:text = "@string/who_is_giving_the_rebuttal"
+            android:layout_gravity="center"
+            android:textSize = "17sp"
+            android:textColor = "#757575"
+            android:layout_marginTop = "7dp"/>
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation = "horizontal">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text = "@string/first_speaker"
+                android:id = "@+id/firstGivingRebutOption"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text = "@string/second_speaker"
+                android:id = "@+id/secondGivingRebutOption"
+                android:layout_marginLeft="15dp"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text = "@string/third_speaker"
+                android:id = "@+id/thirdGivingRebutOption"
+                android:layout_marginLeft="15dp"/>
+        </RadioGroup>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text = "@string/start_debate"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:textSize = "30sp"
+            android:padding="25dp"
+            android:background="#0288D1"
+            android:textColor = "#ffffff"
+            android:id = "@+id/startDebateRound"
+            />
+    </LinearLayout>
+
+</ScrollView>

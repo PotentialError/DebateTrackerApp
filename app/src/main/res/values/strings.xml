@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">Debate Tracker</string>
+    <string-array name="grades_array">
+        <item>Middle School</item>
+        <item>Freshman</item>
+        <item>Sophomore</item>
+        <item>Junior</item>
+        <item>Senior</item>
+        <item>Adult</item>
+    </string-array>
+    <string-array name="debate_style_array">
+        <item>Default</item>
+        <item>Public Forum</item>
+        <item>Lincoln Douglas</item>
+        <item>Policy</item>
+        <item>Big Questions</item>
+        <item>Extemporaneous</item>
+        <item>World Schools</item>
+    </string-array>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="choose_your_usual_debate_style">Choose Your Usual Debate Style</string>
+    <string name="general_info">General Info</string>
+    <string name="name_nickname">Name/Nickname</string>
+    <string name="preferred_pronoun">Preferred Pronoun</string>
+    <string name="school_name">School Name</string>
+    <string name="default_debate_style_public_forum">Default Debate Style: Public Forum</string>
+    <string name="grade">Grade:</string>
+    <string name="years_debating">Years Debating</string>
+    <string name="fun_fact_100_character_limit">Fun Fact (100 character limit)</string>
+    <string name="submit">Submit</string>
+    <string name="welcome_to_debate_tracker">Welcome to Debate Tracker</string>
+    <string name="start_debating">Start Debating</string>
+    <string name="pro">PRO</string>
+    <string name="n_a">N/A</string>
+    <string name="public_forum">Public Forum</string>
+    <string name="opponent_s">Opponent(s):</string>
+    <string name="michael_man_sarah_sally_justin_jack">Michael Man\nSarah Sally\nJustin Jack</string>
+    <string name="opponent_s_school">Opponent\'s School:</string>
+    <string name="abington_heights_high_school">Abington Heights High School</string>
+    <string name="tournament_name">Tournament Name:</string>
+    <string name="ncfl_nationals_qualifier">NCFL Nationals Qualifier</string>
+    <string name="debate_style_title">Debate Style title</string>
+    <string name="debate_style_description">Debate Style Description</string>
+    <string name="your_prep_time">Your Prep Time</string>
+    <string name="_3_00">3:00</string>
+    <string name="start">Start</string>
+    <string name="reset">Reset</string>
+    <string name="enemy_prep_time">Enemy Prep Time</string>
+    <string name="current_speech">Current Speech:</string>
+    <string name="pro_side_speaker_1">PRO Side: Speaker 1</string>
+    <string name="grand_crossfire">Grand Crossfire</string>
+    <string name="_4_00">4:00</string>
+    <string name="last_speech">Last Speech</string>
+    <string name="next_speech">Next Speech</string>
+    <string name="you_are_currently_speaking">YOU ARE CURRENTLY SPEAKING</string>
+    <string name="debate_profile">Debate Profile</string>
+    <string name="michael_rodyushkin">Michael Rodyushkin</string>
+    <string name="junior_from_abington_heights_high_school">Junior From Abington Heights High School</string>
+    <string name="preferred_pronouns">Preferred Pronouns:</string>
+    <string name="he_him">He, Him</string>
+    <string name="default_debate_style">Default Debate Style:</string>
+    <string name="debating_for_2_years">Debating for 2 years</string>
+    <string name="fun_fact">Fun Fact:</string>
+    <string name="i_really_like_dogs">I really like dogs</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="frequent_questions">Frequent Questions</string>
+    <string name="swipe_right_to_start_your_first_debate">Swipe right to start your first debate</string>
+    <string name="debate_setup">Debate Setup</string>
+    <string name="debate_style">Debate Style</string>
+    <string name="win">WIN</string>
+    <string name="loss">LOSS</string>
+    <string name="con">CON</string>
+    <string name="opponent_s_school_name">Opponent\'s School Name</string>
+    <string name="opponent_1_name">Opponent 1 Name</string>
+    <string name="opponent_2_name">Opponent 2 Name</string>
+    <string name="opponent_3_name">Opponent 3 Name</string>
+    <string name="tournament_round">Tournament Round</string>
+    <string name="practice_round">Practice Round</string>
+    <string name="nsda_rules">NSDA Rules</string>
+    <string name="ncfl_rules">NCFL Rules</string>
+    <string name="tournament_name_setup">Tournament Name</string>
+    <string name="who_speaks_first">Who speaks first?</string>
+    <string name="my_side">My Side</string>
+    <string name="are_you_debating_alone">Are you debating alone?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="what_is_your_speaking_role">What is your speaking role?</string>
+    <string name="first_speaker">First Speaker</string>
+    <string name="second_speaker">Second Speaker</string>
+    <string name="third_speaker">Third Speaker</string>
+    <string name="who_is_giving_the_rebuttal">Who is giving the rebuttal?</string>
+    <string name="start_debate">Start Debate</string>
+    <string name="answer">Answer</string>
+    <string name="question">Question</string>
+    <string name="profile">Profile</string>
+    <string name="help">Help</string>
+    <string name="debates">Debates</string>
+    <string name="view_history">View History</string>
+    <string name="edit">Edit</string>
+    <string name="newDebate">New</string>
+    <string name="remove">Remove</string>
+    <string name="wins_20_losses_0">Wins: 20 Losses: 0</string>
+    <string name="_5_7_2020">5/7/2020</string>
+    <string name="set_date">Set Date</string>
+</resources>
