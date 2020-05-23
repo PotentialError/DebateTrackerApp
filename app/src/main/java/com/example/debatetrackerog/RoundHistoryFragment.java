@@ -67,7 +67,7 @@ public class RoundHistoryFragment extends Fragment {
             hint.setText("When you know the result of your rounds, record the result under Edit Rounds");
         }
         else {
-            hint.setText("Swipe right to start your first debate");
+            hint.setText("Click the three bars at the top to start your first debate");
         }
     }
     @Override
