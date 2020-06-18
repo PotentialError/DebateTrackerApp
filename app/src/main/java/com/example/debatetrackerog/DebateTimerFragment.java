@@ -105,8 +105,8 @@ public class DebateTimerFragment extends Fragment {
                 round.add(new Speech(2, 3, "Summary", -proGoesFirst));
             }
             round.add(new Speech(3, 0, "Grand Crossfire", 0));
-            round.add(new Speech(4, 1, "Final Focus", proGoesFirst));
-            round.add(new Speech(4, 4, "Final Focus", -proGoesFirst));
+            round.add(new Speech(2, 1, "Final Focus", proGoesFirst));
+            round.add(new Speech(2, 4, "Final Focus", -proGoesFirst));
         } else if (debateStyle == 1) {
             prepTime = 4;
             round.add(new Speech(6, 0, "Constructive", 1));
