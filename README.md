@@ -1,5 +1,5 @@
 # DebateTrackerApp
-To download the app on Android phones ONLY, run the "app-debug.apk" file on your phone and accept any warnings.
+To download the app on Android phones, run the "app-debug.apk" file on your phone and accept any warnings.
 
 Debate Tracker is an app for NSDA debaters made by the debaters.
 
@@ -10,3 +10,4 @@ Unlike other standard timing apps, this one allows you to:
 * Create a profile that you can show with opponents before the round
 
 Feel free to make pull requests as the UI can definitely be upgraded!
+Have fun!
