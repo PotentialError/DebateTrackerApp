@@ -1,7 +1,7 @@
 # DebateTrackerApp
 To download the app on Android phones, run the "app-debug.apk" file on your phone and accept any warnings.
 
-Debate Tracker is an app for NSDA debaters made by the debaters.
+Debate Tracker is an app for NSDA/NCFL debaters made by the debaters.
 
 Unlike other standard timing apps, this one allows you to:
 * Record your round history for tournament and practice rounds
